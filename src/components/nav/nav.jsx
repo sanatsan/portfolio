@@ -5,6 +5,7 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {GoBook} from 'react-icons/go'
 import {BiMessageDetail} from 'react-icons/bi'
 import {DiCodeBadge} from 'react-icons/di'
+import {TbSchool} from 'react-icons/tb'
 
 
 const Nav = () => {
@@ -13,6 +14,7 @@ const Nav = () => {
     <nav>
       <a href='#' onClick={() => setActiveNav('#')} className={activeNav==='#' ? 'active' : ''}><AiOutlineHome/></a>
       <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav==='#about' ? 'active' : ''}><AiOutlineUser/></a>
+      <a href='#education' onClick={() => setActiveNav('#education')} className={activeNav==='#education' ? 'active' : ''}><TbSchool/></a>
       <a href='#projects' onClick={() => setActiveNav('#projects')} className={activeNav==='#projects' ? 'active' : ''}><DiCodeBadge /></a>
       <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav==='#experience' ? 'active' : ''}><GoBook/></a>
       {/* <a href='#portfolio'><AiOutlineHome/></a> */}
